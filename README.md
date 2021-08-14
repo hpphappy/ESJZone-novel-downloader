@@ -1,4 +1,4 @@
-# ESJZone-novel-downloader]
+# ESJZone-novel-downloader
 
 ESJ Zone is removing novels recently. Learn how to use the python packages, requests and BeatifulSoup and bakup up the novels!
 
