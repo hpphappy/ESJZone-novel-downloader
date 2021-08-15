@@ -68,7 +68,7 @@ print(novel_name)
 # create a folder with the novel name if the folder isn't existed
 save_folder = os.path.join("ESJZone", novel_name)
 if not os.path.exists(save_folder):
-    os.mkdir(save_folder)
+    os.makedirs(save_folder)
     
 content = soup.find('div', attrs={'id': 'chapterList'})
 urls = content.find_all('a')
