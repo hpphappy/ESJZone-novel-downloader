@@ -4,8 +4,7 @@ ESJ Zone is removing novels recently. Learn how to use the python packages, requ
 
 ## Example input in the console:
 ```
-python ESJZone_downloader.py -url https://www.esjzone.cc/detail/1543764573.html -skip [2,4,6]
-                                                    
+python ESJZone_downloader.py -url https://www.esjzone.cc/detail/1543764573.html -skip [2,4,6]                                                   
 ```
 
 * Pass the url of the novel content page.
