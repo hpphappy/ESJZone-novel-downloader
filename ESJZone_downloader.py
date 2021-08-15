@@ -27,7 +27,7 @@ def extract_html(url, save_folder, chapter_name):
     """
     
     # send a request to the web server to get a response, r. 
-    # r is the html soruce code of the webpage with the provide url
+    # r is the html soruce code of the webpage with the provided url
     r=requests.get(url)
     
     # set the encoding of r 
@@ -76,7 +76,7 @@ chapters = content.find_all('p', attrs={'class': None})
 
 hash_map = {}
 for i_chapter, chapter in enumerate(tqdm(chapters)):
-    # skip the list in some chapters
+    # skip the chapters is the skip list
     if i_chapter in skip:
         continue    
         
